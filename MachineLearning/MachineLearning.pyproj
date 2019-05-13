@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>fe1749bb-cac7-4a36-b5e0-5f46387b63b3</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>MachineLearning.py</StartupFile>
+    <StartupFile>Multivariate_LinearRegression.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="MachineLearning.py" />
+    <Compile Include="func_LR.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Multivariate_LinearRegression.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
